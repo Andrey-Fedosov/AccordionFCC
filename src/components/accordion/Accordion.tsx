@@ -5,13 +5,13 @@ type AccordionPropsType = {
   title: string;
 };
 
-//singleselection
 //multiselection
+//singleselection
 
 export function Accordion(props: AccordionPropsType) {
-  const [selected, setSelected] = useState(false);
-  function showItem() {
-    setSelected(!selected);
+  const [selected, setSelected] = useState("");
+  function showItem(id: string) {
+    setSelected(id === selected ? "" : id);
   }
 
   return (
