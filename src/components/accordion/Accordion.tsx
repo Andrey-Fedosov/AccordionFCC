@@ -28,9 +28,11 @@ export function Accordion(props: AccordionPropsType) {
     indexOfCurrentId === -1
       ? copyMultiple.push(id)
       : copyMultiple.splice(indexOfCurrentId, 1);
-    setMultiple(copyMultiple);
 
-    console.log(selected, multiple);
+    setMultiple(copyMultiple);
+    setMultiple([...]);
+
+    
 
     // multiple.map((i) =>
     //   i !== id ? [i, ...multiple] : multiple.filter((i) => i !== id)
