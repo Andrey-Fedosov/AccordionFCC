@@ -5,3 +5,6 @@
 ([Youtube video link](https://youtu.be/5ZdHfJVAY-s?si=Vjpa-WIXutREdbiF))
 
 - timing: 00:08:01 - 00:31:22;
+
+- using hooks:
+  - useState()
